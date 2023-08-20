@@ -44,7 +44,7 @@ html, body {
 footer {
 	color: white;
 	text-align: center;
-	border-top: 1px solid;
+	/*border-top: 1px solid;*/
   	bottom: 0;
   	left: 0;
 	height: 40px;
@@ -82,8 +82,8 @@ small {
   }
   
   button {
-	padding: 15px 30px;
-	margin: 10px 0;
+	padding: 10px 30px;
+	margin: 5px 0;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -323,9 +323,9 @@ video {
 
 /* ------ Grid ------ */
 .top-bottom-margin {
-	margin: 10vh 0 20vh 0;
-	margin: 5vh 0 20vh 0;
-	margin: 5vh 0 30vh 0;
+	margin: 0vh 0 0vh 0;
+	margin: 0vh 0 0vh 0;
+	margin: 0vh 0 0vh 0;
 } 
 
 .max-width {
@@ -559,7 +559,7 @@ video {
 	width: 80px;
     height: 50px;
     text-align: center;
-    border:1px solid; 
+    /*border:1px solid;*/ 
     padding: 4px 380px; 
     vertical-align: middle; 
     background:#df0e0e; 
@@ -591,8 +591,36 @@ video {
 								PROJECT PAGE							
 	===================================================================== */
 
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+	
+	header {
+		background-color: red;
+		color: white;
+		text-align: center;
+		padding: 1rem;
+	}
+	
+	main {
+		padding: 2rem;
+	}
+	
+	.project {
+		border: 1px solid #c01c1c;
+		padding: 1rem;
+		margin: 1rem 0;
+		cursor: pointer;
+	}
+	
+	.project:hover {
+		background-color: #1191b8;
+	}
+	
 
-.block-image-overflow {
+/*.block-image-overflow {
     width: 100%;
     overflow: hidden;
 }
@@ -674,4 +702,4 @@ video {
 		.video {
 			margin: 4vh 0;
 		}
-	}
+	}*/
