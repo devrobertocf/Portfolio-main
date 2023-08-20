@@ -594,29 +594,29 @@ video {
 	body {
 		font-family: Arial, sans-serif;
 		margin: 0;
-		padding: 0;
+		padding: 0;	
 	}
 	
 	header {
-		background-color: red;
+		background-color: white;
 		color: white;
 		text-align: center;
 		padding: 1rem;
 	}
 	
 	main {
-		padding: 2rem;
+		padding: 5rem;
 	}
 	
 	.project {
-		border: 1px solid #c01c1c;
+		border: 5px solid white;
 		padding: 1rem;
 		margin: 1rem 0;
 		cursor: pointer;
 	}
 	
 	.project:hover {
-		background-color: #1191b8;
+		background-color: #df0e0e;
 	}
 	
 
