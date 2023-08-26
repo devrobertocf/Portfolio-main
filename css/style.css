@@ -82,16 +82,16 @@ small {
   }
   
   button {
-	padding: 10px 30px;
-	margin: 5px 0;
+	padding: 25px 0px;
+	margin: 10px 0;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
 	border: none;
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: #da0c0c;
 	color: #fff;
-	transition: all 0.5s ease-in-out;
+	transition: all 2s ease-in-out;
 	width: 200px;
   }
   
@@ -601,17 +601,17 @@ video {
 		background-color: white;
 		color: white;
 		text-align: center;
-		padding: 1rem;
+		padding: 100px;
 	}
 	
 	main {
-		padding: 5rem;
+		padding: 50px;
 	}
 	
 	.project {
 		border: 5px solid white;
-		padding: 1rem;
-		margin: 1rem 0;
+		padding: 30px;
+		margin: 20px;
 		cursor: pointer;
 	}
 	

@@ -1,5 +1,4 @@
 //Texto 01 será escrito, apaga, depois texto 02 será escrito e apaga tudo.
-
 document.addEventListener('DOMContentLoaded', () =>{
     new TypeIt(".animated", {
         speed: 200,
